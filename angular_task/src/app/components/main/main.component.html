@@ -1,0 +1,14 @@
+<div class="home">
+  <video autoplay muted loop id="myvideo">
+    <source [src]="srcm" type="video/mp4" />
+  </video>
+</div>
+
+<div class="content">
+  <br>
+  <app-Temparature [results]="data"></app-Temparature>
+  <br />
+  <app-pressure [results]="data"></app-pressure>
+  <br />
+  <app-humidity [results]="data"></app-humidity>
+</div>
