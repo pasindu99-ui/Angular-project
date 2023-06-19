@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { async } from 'rxjs';
 import { CrudService } from 'src/app/crud/crud.service';
 import { SharedService } from 'src/app/shared.service';
 import { Router } from '@angular/router';

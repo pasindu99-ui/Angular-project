@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders,HttpErrorResponse } from '@angular/common/http';
 import { Observable, catchError, throwError } from 'rxjs';
-import { NavbarComponent } from '../components/navbar/navbar.component';
 import { NgIf } from '@angular/common';
 
 @Injectable({

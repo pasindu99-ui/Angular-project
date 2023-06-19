@@ -4,11 +4,16 @@
   </video>
 </div>
 
-<div class="content">
-  <br>
-  <app-Temparature [results]="data"></app-Temparature>
-  <br />
-  <app-pressure [results]="data"></app-pressure>
-  <br />
-  <app-humidity [results]="data"></app-humidity>
+<div class="center">
+  <div class="content">
+    <div class="row1">
+      <app-Temparature [results]="data"></app-Temparature>
+      <app-pressure [results]="data"></app-pressure>
+    </div>
+    <br />
+    <br />
+    <div class="row2">
+      <app-humidity [results]="data"></app-humidity>
+    </div>
+  </div>
 </div>

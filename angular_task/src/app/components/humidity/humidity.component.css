@@ -19,8 +19,12 @@
         .card {
             background-color: #ffffff;
             border-radius: 50px;
-            color: #6f707d;
+            color: #ffffff;
             font-family: 'Marcellus', serif;
+            height: 200px;
+            width: 400px;
+            opacity: 0.9;
+            
         }
         
         #heading{
